@@ -25,5 +25,6 @@ Uppercase first: <?php echo ucfirst($combine); ?> <br>
 Uppercase words: <?php echo ucwords($combine); ?> <br>
 Lowercase: <?php echo strtolower($combine); ?> <br>
 Uppercase: <?php echo strtoupper($combine); ?> <br>
+<hr>
     </body>
 </html>
