@@ -21,7 +21,13 @@ mini <?php  echo min($nums)?><br>
 In? <?php  echo in_array(20, $nums)?><br>
 <?php  sort($nums)?><br>
 sorted <?php print_r($nums)?><br>
-
+<?php  rsort($nums)?><br>
+back sorted <?php print_r($nums)?><br>
+Implode = join:
+<?php $sent = array("I", "want", "to", "get", "good", "at", "coding!") ?>
+Implode? <?php echo implode(" ", $sent)?><br>
+<?php $strinin = "What is my name?"?>
+Explode <?php print_r(explode(" ", $strinin))?><br>
 
     </body>
 </html>
