@@ -15,6 +15,12 @@ if($Weather=="Sunny"){
     echo "Weather is NEITHER PLESANT NOR CLOUDY!<br>";
 }
 ?><br>
-<?php  echo 2+3?>
+<?php  $bought_product=false;
+if($bought_product){
+    echo "Thank you for your purchase<br>";
+} else{
+    echo "We will ship you product once we recieve your payment!<br>";
+}
+?>
     </body>
 </html>
