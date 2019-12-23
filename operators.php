@@ -19,6 +19,12 @@ if($v1 && $v2){
 }
 
 ?><br>
-<?php  echo 2+3?>
+<?php  
+$fred = 17;
+$james = 16;
+$age = $fred < $james ? "james is older": "fred is older";
+
+echo $age;
+?>
     </body>
 </html>
