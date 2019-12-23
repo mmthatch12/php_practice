@@ -17,10 +17,16 @@ $food = array(
     "key_2"=>"my",
     "key_3"=>"is",
     "key_4"=>"Jean",
-    "key_5"=>"Val-Jean",
+    "key_5"=>2,
 );
 foreach($food as $key=>$value){
-    $data=str_replace("_", " ", $key);
+    $data=ucwords(str_replace("_", " ", $key));
+    if($key=="key_5"){
+        if(is_numeric($value)){
+        } else{
+            $value = "This should be a number!";
+        }
+    }
     echo"$data : $value<br>";
 }
 ?>
