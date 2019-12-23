@@ -13,5 +13,18 @@ echo "Do you see this?";
 $numbers = array(2,6,7,20,85)
 ?>
 <?php echo $numbers[3]?><br>
+<hr>
+curr0: <?php echo current($numbers) ."<br>";
+next($numbers);
+echo current($numbers) ."<br>";
+next($numbers);
+next($numbers);
+echo current($numbers) ."<br>";
+reset($numbers);
+echo current($numbers) ."<br>";
+end($numbers);
+echo current($numbers) ."<br>";
+
+?>
     </body>
 </html>
