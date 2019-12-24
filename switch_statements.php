@@ -22,5 +22,22 @@ switch($Weather){
 break;
 }
 ?>
+<hr>
+<?php 
+$greeting = "holow";
+switch($greeting){
+    case "hello":
+        echo "english";
+    break;
+    case "hola":
+    case "guten":
+    case "konich":
+        echo "not english";
+    break;
+    default:
+        echo "I don't think that is a word";
+break;
+}
+?>
     </body>
 </html>
